@@ -13,7 +13,7 @@ API_HASH = os.getenv("API_HASH", "e1538576951f878bb05f1532e3a4327e")
 
 BOT_TOKEN = os.getenv("BOT_TOKEN", "8476343612:AAFX0R70-FQe7-h4fm3_xYqZGsUjoEXrgQQ")
 
-OWNER_ID = int(os.getenv("OWNER_ID", "8116593707"))
+OWNER_ID = int(os.getenv("OWNER_ID", "6382627192"))
 
 BLACKLIST_CHAT = list(map(int, os.getenv("BLACKLIST_CHAT", "-1002125842026 -1002053287763").split()))
 
