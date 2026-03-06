@@ -5,7 +5,7 @@ load_dotenv(".env")
 
 MAX_BOT = int(os.getenv("MAX_BOT", "100"))
 
-DEVS = list(map(int, os.getenv("DEVS", "8116593707").split()))
+DEVS = list(map(int, os.getenv("DEVS", "6382627192").split()))
 
 API_ID = int(os.getenv("API_ID", "31959871"))
 
